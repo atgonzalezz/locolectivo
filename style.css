@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --gray-text-color: rgba(255, 255, 255, 0.7);
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background-image: url(fotografia1.jpg);
+  background-size: cover;
+  background-size: 100% 110%;
+  background-color: black;
+}
+
+.hero {
+  min-height: 600px;
+}
+
+.hero p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 470px;
+  /* margin-top: 0px; */
+  line-height: 25px;
+  color: white;
+}
+
+.footer img {
+  margin-left: 50px;
+  margin-bottom: -300px;
+}
+
+.footer ul {
+  margin-left: 180px;
+}
+
+.footer li {
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 50px;
+  margin-top: 220px;
+}
