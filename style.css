@@ -51,6 +51,12 @@ body {
   bottom: 10px;
 }
 
+.footer ul li img {
+  margin-left: 140px;
+  margin-bottom: -15px;
+  position: absolute;
+  }
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
