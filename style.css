@@ -7,42 +7,72 @@
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   font-family: "Quicksand", sans-serif;
-  background-image: url(fotografia1.jpg);
-  background-size: cover;
-  background-size: 100% 110%;
-  background-color: black;
+  background-color: var(--gray-text-color);
 }
 
 .hero {
-  min-height: 600px;
+  height: 100%;
+  position: static;
+  margin: auto;
+}
+.hero img {
+  position: relative;
+  margin: auto;
+  background-size: 100% 110%;
 }
 
-.hero p {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 400;
-  padding-top: 470px;
-  /* margin-top: 0px; */
-  line-height: 25px;
+.text {
   color: white;
-}
-
-.footer img {
-  margin-left: 50px;
-  margin-bottom: -300px;
+  font-size: 35px;
+  padding: 550px 120px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
 .footer ul {
   margin-left: 180px;
+  color: white;
+  position: absolute;
+  bottom: 5px;
 }
 
 .footer li {
   display: inline-block;
-  color: white;
   font-size: 18px;
-  font-weight: 600;
-  margin-left: 50px;
-  margin-top: 220px;
+  margin-left: 180px;
+}
+.footer img {
+  margin-left: 140px;
+  position: absolute;
+  bottom: 10px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
